@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MyDivideLine">
+        <!--圆点大小-->
+        <attr name="circleSize" format="dimension"/>
+        <!--线的粗细-->
+        <attr name="lineSize" format="dimension"/>
+        <!--上部线的背景/颜色-->
+        <attr name="beginLine" format="color|reference"/>
+        <!-- 下部线背景/颜色-->
+        <attr name="endLine" format="color|reference"/>
+        <!--圆点背景/颜色-->
+        <attr name="circleBackGround" format="color|reference"/>
+        <!--方向-->
+        <attr name="orientation" format="integer"/>
+    </declare-styleable>
+</resources>
